@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Sucesso</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: #444;
+        }
+        .container {
+            padding: 20px;
+        }
+        .lead-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .lead-form input, .lead-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .lead-form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .lead-form button:hover {
+            background-color: #555;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gestor de Sucesso</h1>
+        <p>Compartilhando práticas de gestão eficazes</p>
+    </header>
+    <nav>
+        <a href="#about">Sobre</a>
+        <a href="#practices">Práticas</a>
+        <a href="#gallery">Galeria</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>Sobre</h2>
+            <p>Bem-vindo ao meu site pessoal! Sou um gestor dedicado a melhorar práticas de gestão no dia a dia. Aqui, compartilho minhas experiências e métodos que uso para alcançar sucesso em minha carreira.</p>
+        </section>
+        <section id="practices">
+            <h2>Práticas de Gestão</h2>
+            <p>Aqui estão algumas das práticas que utilizo para garantir uma gestão eficiente e produtiva:</p>
+            <ul>
+                <li>Comunicação clara e eficaz com a equipe</li>
+                <li>Planejamento estratégico e definição de metas</li>
+                <li>Uso de ferramentas de gerenciamento de projetos</li>
+                <li>Feedback contínuo e construtivo</li>
+                <li>Desenvolvimento e capacitação da equipe</li>
+            </ul>
+        </section>
+        <section id="gallery" class="gallery">
+            <h2>Galeria</h2>
+            <img src="https://via.placeholder.com/300" alt="Imagem de exemplo 1">
+            <img src="https://via.placeholder.com/300" alt="Imagem de exemplo 2">
+            <img src="https://via.placeholder.com/300" alt="Imagem de exemplo 3">
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Em breve, compartilharei artigos e insights sobre gestão. Fique ligado!</p>
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <form class="lead-form" action="https://forms.office.com/Pages/ResponsePage.aspx" method="post" target="_blank">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" placeholder="Sua Mensagem" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>Siga-me nas redes sociais:</p>
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> |
+        <a href="https://www.twitter.com" target="_blank">Twitter</a> |
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <p>&copy; 2024 Gestor de Sucesso. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
